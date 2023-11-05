@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aéroporto</title>
+    <style>
+        body {
+            background-color: darkslategrey;
+            text-align: center;
+            color: antiquewhite;
+            font-family: 'Courier New', Courier, monospace;
+            margin-top: 50px;
+        }
+
+        h1 {
+            font-size: 60px;
+        }
+
+        p {
+            font-size: 20px;
+        }
+
+        input#entrada {
+            width: 150px;
+            height: 30px;
+            border-radius: 10%;
+            border: 5px solid antiquewhite;
+        }
+
+        button {
+            width: 120px;
+            height: 40px;
+            border-radius: 10%;
+            border: 5px solid antiquewhite;
+            color: darkslategrey;
+            font-size: 20px;
+            background-color: antiquewhite;
+            margin-top: 5px;
+        }
+
+        div#out {
+            font-size: 40px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>
+        Verificador de nacionalidade
+    </h1>
+
+    <p>
+        Digite seu país de origem:
+        <input type="text" id="entrada">
+        <button id="bt">Verificar</button>
+    </p>
+
+    <div id="out">
+        Aguardando...
+    </div>
+
+    <script>
+        var out = document.getElementById("out")
+        var bt = document.getElementById("bt")
+
+        function verificar() {
+            var nacionalidade = document.getElementById("entrada").value
+
+            if (nacionalidade == "") {
+                alert("DIGITE UM VALOR NO CAMPO!!!")
+                entrada.focus()
+                return
+            } else if (nacionalidade <= 0 || nacionalidade >= 0) {
+                alert("DIGITE UM PAÍS NO CAMPO!!!")
+                entrada.value = ""
+                entrada.focus()
+                return
+            }
+
+            if (nacionalidade.toLowerCase() == "brasil") {
+                out.innerHTML = "Você é brasileiro(a)"
+                entrada.value = ""
+                entrada.focus()
+                return
+            } else {
+                out.innerHTML = "Você é estrangeiro(a)"
+                entrada.value = ""
+                entrada.focus()
+                return
+            }
+        }
+
+        bt.addEventListener("click", verificar)
+    </script>
+</body>
+
+</html>

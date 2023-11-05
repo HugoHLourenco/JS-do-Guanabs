@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DETRAN</title>
+    <style>
+        body {
+            background-color: darkslategrey;
+            font-family: Arial;
+            color: antiquewhite;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        h1 {
+            font-size: 60px;
+        }
+
+        p {
+            font-size: 35px;
+        }
+
+        input#inVel {
+            width: 60px;
+            height: 22px;
+            border-radius: 10%;
+            border: 7px solid antiquewhite;
+            padding: 5px;
+        }
+
+        button#bt {
+            width: 100px;
+            height: 40px;
+            background-color: antiquewhite;
+            font-size: 20px;
+            color: darkslategrey;
+            border-radius: 10%;
+            border: 5px solid antiquewhite;
+        }
+
+        div#out {
+            font-size: 40px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>
+        Verificador de velocidade
+    </h1>
+
+    <p>
+        Digite sua velocidade: <input type="number" id="inVel" placeholder="Km/h">
+        <button id="bt">Verificar</button>
+    </p>
+
+    <div id="out">
+        Aguardando...
+    </div>
+
+    <script>
+        var bt = document.getElementById("bt")
+
+        function verificar(){
+            var vel = Number(document.getElementById("inVel").value)
+            var out = document.getElementById("out")
+
+            if(vel > 60){
+                out.innerHTML = `Sua velocidade é de <strong>${vel} Km/h</strong>. \n
+                Você foi <strong>MULTADO!!!</strong>`
+            }else{
+                out.innerHTML = `Sua velocidade é de ${vel} Km/h. \n
+                Está tudo normal <strong>._.</strong>`
+            }
+        }
+
+        bt.addEventListener("click", verificar)
+    </script>
+</body>
+
+</html>

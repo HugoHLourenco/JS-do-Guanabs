@@ -1,0 +1,88 @@
+body{
+    background-color: darkcyan;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header{
+    height: 80px;
+    width: 1000px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    border: double darkcyan 8px;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 18px;
+    color:darkcyan;
+    box-shadow: 5px 5px 10px black;
+}
+
+section{
+    height: auto;
+    width: 600px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    border: double darkcyan 8px;
+    margin: auto;
+    margin-top: 30px;
+    box-shadow: 5px 5px 10px black;
+}
+
+div{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+input{
+    margin-top: 10px;
+    height: auto;
+    width: 60px;
+    border-radius: 5px;
+}
+
+button{
+    background-color: darkcyan;
+    border-radius: 20px;
+    height: 60px;
+    width: 100px;
+    border-style: double;
+    border-width: 10px;
+    border-color: aliceblue;
+    color: aliceblue;
+    font-size: 18px;
+    box-shadow: 5px 5px 10px black;
+    margin-left: 15px;
+}
+
+h3{
+    color: darkcyan;
+    margin: auto;
+    width: 500px;
+    font-size: 35px;
+    border-width: 5px;
+    border-color: darkcyan;
+    border-style: double;
+    border-radius: 10px;
+}
+
+footer{
+    background-color: aliceblue;
+    margin: auto;
+    margin-top: 220px;
+    width: 200px;
+    height: 30px;
+    color: darkslategrey;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px black;
+    border-style: double;
+    border-width: 10px;
+    text-align: center;
+    font-size: 25px;
+
+}
+
+p{
+    color: darkcyan;
+    font-size: 35px;
+    margin-left: 10px;
+}

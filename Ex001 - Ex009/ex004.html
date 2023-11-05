@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            background-color: aliceblue;
+            font: normal 50pt italic;
+            color: aquamarine;
+        }
+    </style>
+    <title>Contador de letras na String</title>
+</head>
+<body>
+    <script>
+        var nome = prompt("Digite seu nome: ")
+        var salario = Number(prompt("Informe seu salário: "))
+        var salarioFormatado = salario.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})
+
+        document.write(`Olá <strong>${nome}</strong>! seu nome tem <strong> ${nome.length} letras</strong>. <br/>
+                        Em letras maiúsculas é <strong>${nome.toUpperCase()}</strong>. <br/>
+                        E em minúsculas é <strong>${nome.toLowerCase()}</strong>. <br/>
+                        Seu salário é ${salarioFormatado}.`)
+    </script>
+</body>
+</html>

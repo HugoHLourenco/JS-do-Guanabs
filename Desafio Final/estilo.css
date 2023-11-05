@@ -1,0 +1,124 @@
+body {
+    background-color: darkcyan;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+    font-size: 40px;
+    background-color: antiquewhite;
+    color: darkcyan;
+    text-align: center;
+    height: auto;
+    width: 1000px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: double 10px;
+    box-shadow: 5px 5px 10px black;
+}
+
+section {
+    background-color: antiquewhite;
+    height: 550px;
+    width: 800px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px black;
+    border: double 10px;
+    color: darkcyan;
+}
+
+input#entrada{
+    height: 30px;
+    width: 100px;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 10px;
+    color: darkcyan;   
+}
+
+button#btAnalisar{
+    background-color: darkcyan;
+    color: antiquewhite;
+    border: double 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    height: 50px;
+    width: 150px;
+    margin-left: 10px;
+    box-shadow: 5px 5px 10px black;
+}
+
+button#btLimpar{
+    background-color: darkcyan;
+    color: antiquewhite;
+    border: double 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    height: 53px;
+    width: 120px;
+    margin-left: 425px;
+    margin-top: -10px;
+    box-shadow: 5px 5px 10px black;
+}
+
+button#btVerificar{
+    background-color: darkcyan;
+    color: antiquewhite;
+    border: double 10px;
+    border-radius: 10px;
+    font-size: 23px;
+    height: 55px;
+    width: 150px;
+    margin-left: 5px;
+    margin-top: -10px;
+    box-shadow: 5px 5px 10px black;
+}
+
+p{
+    margin-left:  10px;
+    font-size: 25px;
+}
+
+h3{
+    margin-top: 100px;
+    color: darkcyan;
+    background-color: antiquewhite;
+    height: 356px;
+    width: 450px;
+    margin-left: 315px;
+    margin-top: -378px;
+    border-radius: 10px;
+    font-size: 25px;
+    text-align: left;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+footer {
+    background-color: antiquewhite;
+    margin: auto;
+    margin-top: 120px;
+    width: 170px;
+    height: 30px;
+    color: darkcyan;
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px black;
+    border-style: double;
+    border-width: 10px;
+    text-align: center;
+    font-size: 25px;
+}
+
+select{
+    width: 300px;
+    font-size: 25px;
+    border: double 10px;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-top: -60px;
+    text-align: center;
+    border-color: darkcyan;
+    color: darkcyan;
+}

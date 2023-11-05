@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somando Valores</title>
+    <style>
+        body {
+            background-color: darkslategrey;
+        }
+
+        h1 {
+            font: normal 39px arial;
+            color: antiquewhite;
+        }
+
+        input#n1, input#n2 {
+            width: 100px;
+            height: 25px;
+            border-radius: 10%;
+            border: 10px solid antiquewhite;
+            padding: 5px;
+        }
+
+        button#bt {
+            width: 100px;
+            height: 37px;
+            background-color: antiquewhite;
+            color: darkslategrey;
+            font: 20px italic;
+            border-radius: 5%;
+        }
+
+        p{
+            font: 20px arial;
+            color: antiquewhite;
+        }
+         div#out {
+            font: 35px arial;
+            color: antiquewhite;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Somando valores</h1>
+
+    <p>
+        <input type="number" id="n1"> +
+        <input type="number" id="n2">
+        <button id="bt">Somar</button>
+    </p>
+
+    <div id="out">Aguardando...</div>
+
+    <script>
+        var out = document.getElementById("out")
+        var bt = document.getElementById("bt")
+        
+        function somar(){
+            var n1 = Number(document.getElementById("n1").value)
+            var n2 = Number(document.getElementById("n2").value)
+            var soma = n1 + n2
+            out.textContent = `A soma entre ${n1} e ${n2} é: ${soma}`
+        }
+        bt.addEventListener("click", somar)
+    </script>
+</body>
+
+</html>

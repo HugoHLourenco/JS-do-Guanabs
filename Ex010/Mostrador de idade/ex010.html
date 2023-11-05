@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício de prática</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <header>
+        <h1>Verificador de idade</h1>
+    </header>
+
+    <section>
+        <div>
+            <p>Ano de nascimento:
+                <input type="number" id="ano">
+            </p>
+
+            <p>Sexo:
+                <input type="radio" name="radsex" id="masc" checked>
+                <label for="masc">Masculino</label>
+                <input type="radio" name="radsex" id="femi">
+                <label for="femi">Feminino</label>
+            </p>
+
+            <p><button id="verificar" onclick="verificar()">Verificar</button></p>
+        </div>
+        <div id="res">
+            <img  id="foto" src="">
+            <h4 id= "out"></h4>
+        </div>
+    </section>
+
+    <footer>
+        <p>Fazendo coisas</p>
+    </footer>
+
+    <script src="ex010.js"></script>
+</body>
+
+</html>
