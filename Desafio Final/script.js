@@ -92,10 +92,10 @@ function soma(n) {
     return soma
 }
 
-function media(n){
+function media(n) {
     let media = n[0]
-    for(let i = 0; i <= n.length; i++){
-        media = soma(nums) / i 
+    for (let i = 0; i <= n.length; i++) {
+        media = soma(nums) / i
     }
     return media.toFixed(2)
 }

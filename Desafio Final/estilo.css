@@ -29,16 +29,16 @@ section {
     color: darkcyan;
 }
 
-input#entrada{
+input#entrada {
     height: 30px;
     width: 100px;
     font-size: 25px;
     text-align: center;
     border-radius: 10px;
-    color: darkcyan;   
+    color: darkcyan;
 }
 
-button#btAnalisar{
+button#btAnalisar {
     background-color: darkcyan;
     color: antiquewhite;
     border: double 10px;
@@ -50,7 +50,7 @@ button#btAnalisar{
     box-shadow: 5px 5px 10px black;
 }
 
-button#btLimpar{
+button#btLimpar {
     background-color: darkcyan;
     color: antiquewhite;
     border: double 10px;
@@ -63,7 +63,7 @@ button#btLimpar{
     box-shadow: 5px 5px 10px black;
 }
 
-button#btVerificar{
+button#btVerificar {
     background-color: darkcyan;
     color: antiquewhite;
     border: double 10px;
@@ -76,12 +76,12 @@ button#btVerificar{
     box-shadow: 5px 5px 10px black;
 }
 
-p{
-    margin-left:  10px;
+p {
+    margin-left: 10px;
     font-size: 25px;
 }
 
-h3{
+h3 {
     margin-top: 100px;
     color: darkcyan;
     background-color: antiquewhite;
@@ -111,7 +111,7 @@ footer {
     font-size: 25px;
 }
 
-select{
+select {
     width: 300px;
     font-size: 25px;
     border: double 10px;

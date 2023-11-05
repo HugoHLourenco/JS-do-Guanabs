@@ -1,5 +1,5 @@
-function paripm(n){
-    if (n % 2 == 0){
+function paripm(n) {
+    if (n % 2 == 0) {
         return console.log("É par")
     } else {
         return console.log("É impar")

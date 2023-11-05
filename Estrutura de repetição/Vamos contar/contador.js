@@ -16,7 +16,7 @@ function calcular() {
                 out.textContent += `${i}, `
             }
         } else {
-            for (i = inicio; i <= fim; i ++) {
+            for (i = inicio; i <= fim; i++) {
                 out.textContent += `${i}, `
             }
         }
