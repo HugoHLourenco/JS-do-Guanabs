@@ -1,2 +1,2 @@
 # JS-do-Guanabs
- Códigos feitos no cursos de JS do Guanabara.
+ Códigos feitos no curso de JS do Guanabara.
